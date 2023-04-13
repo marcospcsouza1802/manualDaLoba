@@ -135,6 +135,14 @@
     transition: .3s;
 }
 
+.pra-quem {
+    width: 500px;
+    height: auto;
+    margin-top: 40px;
+    margin-top: 40px;
+    display: none;
+}
+
 .preco-original {
     font-size: 22px;
     margin-top: 30px;
@@ -327,7 +335,7 @@ video::-webkit-media-controls-panel {
     }
     .colunas {
         width: 90%;
-        height: auto;
+        height: 172px;
     }
     .coluna {
         width: 28%;
@@ -367,11 +375,17 @@ video::-webkit-media-controls-panel {
     .img-div {
         margin-bottom: 20px;
     }
+    .pra-quem {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
     .img-carrossel {
         width: 470px;
         height: 300px;
+    }
+    .colunas {
+        height: auto;
     }
 }
