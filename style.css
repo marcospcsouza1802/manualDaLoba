@@ -335,7 +335,7 @@ video::-webkit-media-controls-panel {
     }
     .colunas {
         width: 90%;
-        height: 172px;
+        height: auto;
     }
     .coluna {
         width: 28%;
