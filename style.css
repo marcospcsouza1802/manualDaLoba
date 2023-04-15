@@ -136,11 +136,15 @@
 }
 
 .pra-quem {
-    width: 95%;
+    width: 100%;
     height: auto;
     margin-top: 40px;
-    margin-top: 40px;
+    margin-bottom: 40px;
     display: none;
+}
+
+.pra-quem img {
+    width: 100%;
 }
 
 .preco-original {
@@ -313,7 +317,7 @@ video::-webkit-media-controls-panel {
 
 @media screen and (max-width: 767px) {
     .titulo {
-        font-size: 24px;
+        font-size: 21px;
     }
     .subtitulo {
         font-size: 15px;
