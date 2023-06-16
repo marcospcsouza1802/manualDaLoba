@@ -5,4 +5,4 @@ function showSubmit() {
     document.getElementById('precoOriginal').style.display = 'block';
 }
 
-setTimeout(showSubmit, 569000);;
+setTimeout(showSubmit, 495000);;
