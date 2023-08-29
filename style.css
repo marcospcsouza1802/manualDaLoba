@@ -8,6 +8,7 @@
 
 body {
     padding-top: 30px;
+    max-width: 100%;
 }
 
 .content {
@@ -132,8 +133,8 @@ body {
 }
 
 #tela2 .image img {
-    height: 70%;
-    width: 70%;
+    height: 90%;
+    width: 90%;
     border-radius: 20px;
 }
 
@@ -199,7 +200,6 @@ body {
     text-align: center;
     letter-spacing: 2px;
     font-size: 40px;
-    width: 90%;
     margin-top: -100px;
     padding-bottom: 20px;
 }
