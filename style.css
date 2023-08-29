@@ -126,7 +126,6 @@ body {
 }
 
 #tela2 .image {
-    height: auto;
     border-radius: 20px;
     overflow: hidden;
     margin-bottom: 15px;
@@ -199,8 +198,8 @@ body {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
-    font-size: 50px;
-    width: 95%;
+    font-size: 40px;
+    width: 90%;
     margin-top: -100px;
     padding-bottom: 20px;
 }
