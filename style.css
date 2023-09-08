@@ -338,3 +338,10 @@ body {
     margin-bottom: 15px;
     text-align: justify;
 }
+
+#tela6,
+#btn-vsl,
+#btn-caminho,
+#btn-depoimentos {
+    display: none;
+}
