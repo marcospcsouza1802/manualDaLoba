@@ -1,347 +1,368 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&family=Lato:wght@300;400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Lato', sans-serif;
-}
-
-body {
-    padding-top: 30px;
-    max-width: 100%;
-}
-
-.content {
-    margin: auto;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#tela1 {
-    padding-bottom: 50px;
-}
-
-#tela1 h1 {
-    text-align: center;
-    padding-bottom: 20px;
-    font-weight: 800;
-    font-size: 30px;
-}
-
-#tela1 h2 {
-    text-align: center;
-    padding-bottom: 30px;
-    font-weight: 500;
-    font-size: 20px;
-}
-
-#tela1 h3 {
-    text-align: center;
-    padding-bottom: 15px;
-    font-weight: 500;
-    font-size: 20px;
-}
-
-#vsl {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 20px;
-}
-
-#vsl img {
-    width: 80%;
-}
-
-#tela1 a {
-    color: white;
-    background-color: #f53c4e;
-    padding: 8px 15px;
-    border-radius: 12px;
-    text-decoration: none;
-    transition: .3s;
-    font-size: 18px;
-    margin-bottom: 35px;
-}
-
-#tela1 a:hover {
-    background-color: #b33340;
-    cursor: pointer;
-}
-
-#tela1 h4 {
-    color: #f53c4e;
-    font-weight: 700;
-    font-size: 26px;
-    padding: 20px 0;
-    align-self: flex-start;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-#tela1 p {
-    line-height: 30px;
-    font-size: 18px;
-    text-align: justify;
-}
-
-#tela1 b {
-    font-size: 22px;
-    font-weight: 800;
-}
-
-#tela2 {
-    background-color: #f53c4e;
-    padding: 40px 0;
-    color: white;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-#tela2 .text {
-    width: 90%;
-}
-
-#tela2 .text h2 {
-    padding-bottom: 35px;
-}
-
-#tela2 .text h1 {
-    padding-bottom: 20px;
-    font-size: 65px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-family: 'Special Elite', 'sans-serif';
-}
-
-#tela2 .text p {
-    text-align: justify;
-    font-size: 18px;
-    padding: 20px 0;
-}
-
-#tela2 .images {
-    overflow: hidden;
-}
-
-#tela2 .image {
-    border-radius: 20px;
-    overflow: hidden;
-    margin-bottom: 15px;
-}
-
-#tela2 .image img {
-    height: 90%;
-    width: 90%;
-    border-radius: 20px;
-}
-
-#tela3 img {
-    width: 90%;
-}
-
-#tela3 h1 {
-    text-align: center;
-    color: #f53c4e;
-    font-size: 60px;
-    padding-bottom: 30px;
-    font-family: 'Special Elite', 'sans-serif';
-}
-
-.topic {
-    display: flex;
-    padding: 0 40px 20px 40px;
-}
-
-.topic h2 {
-    padding-bottom: 5px;
-    font-size: 25px;
-    font-weight: 800;
-}
-
-.topic svg {
-    fill: #f53c4e;
-    padding-right: 15px;
-    height: 25px;
-}
-
-#tela3 a {
-    color: white;
-    background-color: #f53c4e;
-    padding: 8px 15px;
-    border-radius: 12px;
-    text-decoration: none;
-    transition: .3s;
-    font-size: 18px;
-    margin: 20px 0;
-}
-
-#tela3 a:hover {
-    background-color: #b33340;
-    cursor: pointer;
-}
-
-#tela4 {
-    background-color: black;
-    color: white;
-    margin-top: 10px;
-    padding-bottom: 60px;
-}
-
-#tela4 img {
-    width: 100%;
-}
-
-#tela4 h1 {
-    font-family: 'Special Elite', 'sans-serif';
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 2px;
-    font-size: 40px;
-    margin-top: -100px;
-    padding-bottom: 20px;
-}
-
-.depoimento img {
-    width: 100%;
-    margin-top: 35px;
-}
-
-.depoimento h3 {
-    color: #f53c4e;
-    font-size: 25px;
-    padding-top: 25px;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-.depoimento p {
-    font-weight: 300;
-    padding-top: 15px;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: justify;
-}
-
-.depoimento h4 {
-    padding-top: 10px;
-}
-
-.botoes {
-    color: white;
-    background-color: #f53c4e;
-    padding: 8px 15px;
-    border-radius: 12px;
-    text-decoration: none;
-    transition: .3s;
-    font-size: 18px;
-    margin: 20px 0;
-    text-align: center;
-    font-weight: 800;
-    line-height: 35px;
-}
-
-.botoes:hover {
-    background-color: #b33340;
-    cursor: pointer;
-}
-
-#tela5 a {
-    margin-top: -25px;
-    margin-bottom: 50px;
-}
-
-#tela5 #garantia {
-    width: 70%;
-    padding: 20px 0;
-}
-
-#tela5 h1 {
-    color: #f53c4e;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-    padding-bottom: 20px;
-}
-
-#tela5 p {
-    font-size: 18px;
-    text-align: justify;
-    padding-bottom: 35px;
-}
-
-#tela5 #selos {
-    width: 100%;
-}
-
-.linha {
-    height: 1px;
-    background-color: grey;
-    margin: 50px 0 20px 0;
-    width: 100%;
-    opacity: .5;
-}
-
-#tela6 img {
-    width: 75%;
-}
-
-#price-container {
-    border: 6px solid #f53c4e;
-    border-radius: 20px;
-    padding: 40px 0 75px 0;
-    text-align: center;
-}
-
-#tela6 h1 {
-    font-family: 'Special Elite', 'sans-serif';
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 2px;
-    font-size: 45px;
-    padding-bottom: 20px;
-}
-
-#price-container b {
-    text-decoration: line-through;
-}
-
-#price-container p {
-    font-size: 22px;
-}
-
-#price-container h2 {
-    color: #f53c4e;
-    font-size: 80px;
-    font-weight: 800;
-    padding-top: 10px;
-}
-
-#garantia-preco {
-    font-weight: 800;
-    padding-top: 10px;
-}
-
-#btn-price {
-    margin-top: -50px;
-}
-
-#vsl {
-    width: 100%;
-    height: 80%;
-}
-
-.final-text {
-    margin-top: 40px;
-    font-size: 10px;
-    margin-bottom: 15px;
-    text-align: justify;
-}
-
-#tela6,
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&family=Lato:wght@300;400;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    body {
+        padding-top: 30px;
+        max-width: 100%;
+    }
+    
+    .content {
+        margin: auto;
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #tela1 {
+        padding-bottom: 50px;
+    }
+    
+    #tela1 h1 {
+        text-align: center;
+        padding-bottom: 20px;
+        font-weight: 800;
+        font-size: 25px;
+    }
+    
+    #tela1 h2 {
+        text-align: center;
+        padding-bottom: 30px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    
+    #tela1 h3 {
+        text-align: center;
+        padding-bottom: 15px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    
+    #vsl {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    
+    #vsl img {
+        width: 80%;
+    }
+    
+    #tela1 a {
+        color: white;
+        background-color: #f53c4e;
+        padding: 8px 15px;
+        border-radius: 12px;
+        text-decoration: none;
+        transition: .3s;
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+    
+    #tela1 a:hover {
+        background-color: #b33340;
+        cursor: pointer;
+    }
+    
+    #tela1 h4 {
+        color: #f53c4e;
+        font-weight: 700;
+        font-size: 26px;
+        padding: 20px 0;
+        align-self: flex-start;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    #tela1 p {
+        line-height: 30px;
+        font-size: 18px;
+        text-align: justify;
+    }
+    
+    #tela1 b {
+        font-size: 22px;
+        font-weight: 800;
+    }
+    
+    #tela1 #preco-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #curso-on {
+        width: 50%;
+        font-weight: 800;
+        padding-right: 25px;
+    }
+    
+    #curso-on p {
+        font-size: 22px;
+    }
+    
+    #preco h1 {
+        font-size: 50px;
+        text-align: end;
+        color: #ee606e;
+    }
+    
+    #tela2 {
+        background-color: #f53c4e;
+        padding: 40px 0;
+        color: white;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    #tela2 .text {
+        width: 90%;
+    }
+    
+    #tela2 .text h2 {
+        padding-bottom: 35px;
+    }
+    
+    #tela2 .text h1 {
+        padding-bottom: 20px;
+        font-size: 65px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-family: 'Special Elite', 'sans-serif';
+    }
+    
+    #tela2 .text p {
+        text-align: justify;
+        font-size: 18px;
+        padding: 20px 0;
+    }
+    
+    #tela2 .images {
+        overflow: hidden;
+    }
+    
+    #tela2 .image {
+        border-radius: 20px;
+        overflow: hidden;
+        margin-bottom: 15px;
+    }
+    
+    #tela2 .image img {
+        height: 90%;
+        width: 90%;
+        border-radius: 20px;
+    }
+    
+    #tela3 img {
+        width: 90%;
+    }
+    
+    #tela3 h1 {
+        text-align: center;
+        color: #f53c4e;
+        font-size: 60px;
+        padding-bottom: 30px;
+        font-family: 'Special Elite', 'sans-serif';
+    }
+    
+    .topic {
+        display: flex;
+        padding: 0 10px 20px 10px;
+    }
+    
+    .topic h2 {
+        padding-bottom: 5px;
+        font-size: 25px;
+        font-weight: 800;
+    }
+    
+    .topic svg {
+        fill: #f53c4e;
+        padding-right: 15px;
+        height: 25px;
+    }
+    
+    #tela3 a {
+        color: white;
+        background-color: #f53c4e;
+        padding: 8px 15px;
+        border-radius: 12px;
+        text-decoration: none;
+        transition: .3s;
+        font-size: 18px;
+        margin: 20px 0;
+    }
+    
+    #tela3 a:hover {
+        background-color: #b33340;
+        cursor: pointer;
+    }
+    
+    #tela4 {
+        background-color: black;
+        color: white;
+        margin-top: 10px;
+        padding-bottom: 60px;
+    }
+    
+    #tela4 img {
+        width: 100%;
+    }
+    
+    #tela4 h1 {
+        font-family: 'Special Elite', 'sans-serif';
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 40px;
+        margin-top: -100px;
+        padding-bottom: 20px;
+    }
+    
+    .depoimento img {
+        width: 100%;
+        margin-top: 35px;
+    }
+    
+    .depoimento h3 {
+        color: #f53c4e;
+        font-size: 25px;
+        padding-top: 25px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .depoimento p {
+        font-weight: 300;
+        padding-top: 15px;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: justify;
+    }
+    
+    .depoimento h4 {
+        padding-top: 10px;
+    }
+    
+    .botoes {
+        color: white;
+        background-color: #f53c4e;
+        padding: 8px 15px;
+        border-radius: 12px;
+        text-decoration: none;
+        transition: .3s;
+        font-size: 18px;
+        margin: 20px 0;
+        text-align: center;
+        font-weight: 800;
+        line-height: 35px;
+    }
+    
+    .botoes:hover {
+        background-color: #b33340;
+        cursor: pointer;
+    }
+    
+    #tela5 a {
+        margin-top: -25px;
+        margin-bottom: 50px;
+    }
+    
+    #tela5 #garantia {
+        width: 70%;
+        padding: 20px 0;
+    }
+    
+    #tela5 h1 {
+        color: #f53c4e;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 800;
+        padding-bottom: 20px;
+    }
+    
+    #tela5 p {
+        font-size: 18px;
+        text-align: justify;
+        padding-bottom: 35px;
+    }
+    
+    #tela1 #selos {
+        width: 85%;
+        margin: 10px 0 30px 0;
+    }
+    
+    .linha {
+        height: 1px;
+        background-color: grey;
+        margin: 20px 0;
+        width: 100%;
+        opacity: .5;
+    }
+    
+    #tela6 img {
+        width: 75%;
+    }
+    
+    #price-container {
+        border: 6px solid #f53c4e;
+        border-radius: 20px;
+        padding: 40px 0 75px 0;
+        text-align: center;
+    }
+    
+    #tela6 h1 {
+        font-family: 'Special Elite', 'sans-serif';
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 45px;
+        padding-bottom: 20px;
+    }
+    
+    #price-container b {
+        text-decoration: line-through;
+    }
+    
+    #price-container p {
+        font-size: 22px;
+    }
+    
+    #price-container h2 {
+        color: #f53c4e;
+        font-size: 80px;
+        font-weight: 800;
+        padding-top: 10px;
+    }
+    
+    #garantia-preco {
+        font-weight: 800;
+        padding-top: 10px;
+    }
+    
+    #btn-price {
+        margin-top: -50px;
+    }
+    
+    #vsl {
+        width: 100%;
+        height: 80%;
+    }
+    
+    .final-text {
+        margin-top: 40px;
+        font-size: 10px;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+    /* #tela6,
 #btn-vsl,
 #btn-caminho,
 #btn-depoimentos {
     display: none;
-}
+}*/
